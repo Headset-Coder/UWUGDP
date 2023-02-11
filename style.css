@@ -1,0 +1,71 @@
+#chatbot {
+    width: 500px;
+    height: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px #ccc;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  #conversation {
+    height: 80%;
+    overflow: auto;
+  }
+  
+  .bot-message {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 2px #ccc;
+  }
+  
+  .user-message {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ccffcc;
+    border: 1px solid #00cc00;
+    box-shadow: 1px 1px 2px #00cc00;
+    float: right;
+    clear: both;
+  }
+  
+  form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    width: 18%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  body {
+    background-color: #462da0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.h11 {
+display: flex;
+justify-content: center;
+align-items: center;
+    
+  }
